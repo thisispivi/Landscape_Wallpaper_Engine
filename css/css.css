@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#time {
+    position: fixed;
+    z-index: 100;
+    font-size: 3em;
+    font-family: Montserrat;
+    font-weight: 100;
+    bottom: 62%;
+    right: 29.7%;
+    text-align: center;
+}
+
+#bar {
+    background-image: url("../img/bar.png");
+    width: 8%;
+    height: 0.2%;
+    position: fixed;
+    bottom: 74%;
+    right: 31.6%;
+    background-blend-mode: overlay;
+}
+
+#clock {
+    font-size: 1.5em;
+    color: white;
+    opacity: 0.8;
+    padding-top: 10%;
+}
+
+#week {
+    font-size: 1.2em;
+    color: rgb(255, 194, 242);
+    opacity: 0.8;
+}
+
+#date {
+    font-size: 1.2em;
+    color: white;
+    opacity: 0.8;
+}
+
+#weather {
+    position: fixed;
+    bottom: 32%;
+    left: 30%;
+    width: 20%;
+    z-index: 100;
+}
+
+#temp {
+    font-size: 3em;
+    font-family: Montserrat;
+    font-weight: 100;
+    color: white;
+    margin-right: 5%;
+}
+
+#city {
+    font-size: 4em;
+    font-family: Montserrat;
+    font-weight: 100;
+    color: white;
+    margin-right: 5%;
+}
+
+#icon {
+    color: white;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.carousel-item p {
+    font-size: 1.3em;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 100;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#news {
+    position: fixed;
+    bottom: 22%;
+    left: 28%;
+    width: 20%;
+    z-index: 100;
+}
